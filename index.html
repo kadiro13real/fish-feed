@@ -63,6 +63,12 @@ body{
     border: 7px solid #000000;
 }
 
+.navbar {
+    display: flex;
+    flex-wrap: wrap;      /* allows buttons to go down */
+    gap: 10px;            /* spacing between buttons */
+}
+
     </style>
 </head>
 <body>
@@ -72,7 +78,7 @@ body{
     </div>
     
     
-    <ul style="display: flex;">
+    <ul class="navbar" style="display: flex;">
         <li class="buttonb"><a id="link" href="https://feed-apps.onrender.com/tournaments"><img src="fish_tour_button.png" style="width: 150px; height: 150px;" alt="Overlay image"></a></li>
         <li class="buttonb"><a id="link" href="fishes.html"><img src="fish_list_button.png" style="width: 150px; height: 150px;" alt="Overlay image"></a></li>
         <li class="buttonb"><a id="link" href="https://feed-apps.onrender.com/fish_map"><img src="fish_map_button.png" style="width: 150px; height: 150px;" alt="Overlay image"></a></li>
