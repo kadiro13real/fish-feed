@@ -73,6 +73,11 @@ body {
   height: 140px;
 }
 
+.navbar {
+    display: flex;
+    flex-wrap: wrap;      /* allows buttons to go down */
+    gap: 10px;            /* spacing between buttons */
+}
 
     </style>
 </head>
@@ -83,7 +88,7 @@ body {
     </div>
     
     
-    <ul style="display: flex;">
+    <ul class="navbar" style="display: flex;">
         <li class="buttonb"><a id="link" href="index.html"><img src="fish_home_button.png" style="width: 150px; height: 150px;" alt="Overlay image"></a></li>
         <li class="buttonb"><a id="link" href="fishes.html"><img src="fish_med_button.png" style="width: 150px; height: 150px;" alt="Overlay image"></a></li>
         <li class="buttonb"><a id="link" href="atlatnic_fish.html"><img src="fish_atl_button.png" style="width: 150px; height: 150px;" alt="Overlay image"></a></li>
